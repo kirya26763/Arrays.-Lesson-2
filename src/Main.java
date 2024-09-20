@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         // Задача 1
         System.out.println("Задача 1");
-        int[] expensesMonth = {0};
+        int[] expensesMonth = {13, 42, 47, 28, 15};
         int sumExpenses = 0;
         for (int i = 0; i < expensesMonth.length; i++) {
             sumExpenses += expensesMonth[i];
@@ -36,6 +36,7 @@ public class Main {
         } else {
             System.out.printf("Средняя сумма трат за месяц составила %.2f рублей", averageExpenses);
         }
+        System.out.println();
         // Задача 4
         System.out.println("Задача 4");
         char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
